@@ -70,4 +70,6 @@ while (!endApp)
     Console.WriteLine("\n"); // Friendly linespacing.
 }
 
+// Add call to close the JSON writer before return
+calculator.Finish();
 return;
